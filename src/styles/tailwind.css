@@ -1,0 +1,37 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Courier Prime;
+    font-weight: 400;
+    src: url(../assets/fonts/Courier_Prime/CourierPrime-Regular.ttf);
+  }
+  @font-face {
+    font-family: Alfa Slab One;
+    font-weight: 400;
+    src: url(../assets/fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
+  }
+  .font-primary {
+    font-family: 'Alfa Slab One';
+  }
+  .font-secondary {
+    font-family: 'Courier Prime';
+  }
+}
+
+@layer components {
+  .btn-primary {
+    font-family: 'Alfa Slab One';
+    @apply rounded-xl shadow text-black bg-sun text-7xl px-8 py-3 xl:py-4 md:text-6xl xl:px-16;
+  }
+  .btn-secondary {
+    font-family: 'Alfa Slab One';
+    @apply rounded-xl shadow text-sun px-8 py-2 text-2xl border-sun;
+    border-width: 3px;
+    border-style: solid;
+  }
+}

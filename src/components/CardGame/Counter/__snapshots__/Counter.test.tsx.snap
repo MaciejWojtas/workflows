@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly without class name 1`] = `
+<div
+  className="counter"
+>
+  <span
+    className="counter__number font-secondary"
+  >
+    2
+  </span>
+  <span
+    className="counter__text font-secondary"
+  >
+    Cards Left
+  </span>
+  <div
+    className="counter-aces font-secondary"
+  >
+    <span
+      className="counter-aces__ace"
+    >
+      A
+    </span>
+    <span
+      className="counter-aces__ace"
+    >
+      A
+    </span>
+    <span
+      className="counter-aces__ace"
+    >
+      A
+    </span>
+    <span
+      className="counter-aces__ace"
+    >
+      A
+    </span>
+  </div>
+</div>
+`;

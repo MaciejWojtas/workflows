@@ -1,0 +1,131 @@
+.game {
+  @apply flex flex-col justify-between flex-1;
+}
+
+.game-win {
+  @apply absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.game-counter {
+  @apply flex justify-center;
+}
+
+.game-cards {
+  @apply flex justify-center flex-col flex-1;
+}
+
+.game-cards__container {
+  @apply flex flex-wrap mx-auto justify-center max-w-sm xl:max-w-full;
+}
+.game-cards__card {
+  @apply mx-2 my-2 xl:my-0 xl:my-0;
+  animation: cardThrow 0.3s ease-in-out;
+}
+
+@media (min-width: 1280px) {
+  .game-cards__card-0 {
+    @apply absolute;
+    transform: rotate(15deg) translate(-500px, 68px) translateY(-50%);
+  }
+  .game-cards__card-1 {
+    z-index: 1;
+    @apply md:absolute;
+    transform: var(--rotate-1, rotate(7.5deg)) var(--translate-1, translate(-250px, 16px))
+      translateY(-50%);
+  }
+  .game-cards__card-2 {
+    z-index: 2;
+    @apply md:absolute;
+    transform: var(--rotate-2, rotate(0deg)) var(--translate-2, translate(0)) translateY(-50%);
+  }
+  .game-cards__card-3 {
+    z-index: 3;
+    @apply md:absolute;
+    transform: var(--rotate-3, rotate(-7.5deg)) var(--translate-3, translate(250px, 16px))
+      translateY(-50%);
+  }
+  .game-cards__card-4 {
+    z-index: 4;
+    @apply md:absolute;
+    transform: var(--rotate-4, rotate(-15deg)) var(--translate-4, translate(500px, 68px))
+      translateY(-50%);
+  }
+}
+
+.game-deal {
+  @apply min-w-full flex flex-col justify-end justify-center  h-60 xl:h-auto xl:mb-12;
+}
+.game-lose {
+  @apply mb-16 text-white text-2xl xl:text-4xl max-w-lg mx-auto;
+}
+
+.game-deal__button {
+  @apply uppercase mx-auto;
+}
+
+.game-reset-btn {
+  @apply mx-auto;
+}
+
+.game-reset {
+  @apply min-w-full flex justify-center xl:justify-end;
+}
+
+.game-reset__button {
+  @apply xl:mr-0;
+}
+
+.body-inner {
+  @apply text-center;
+}
+
+@keyframes cardThrow {
+  0% {
+    --translate-1: translate(-500px, 68px);
+    --translate-2: translate(-500px, 68px);
+    --translate-3: translate(-500px, 68px);
+    --translate-4: translate(-500px, 68px);
+    --rotate-1: rotate(15deg);
+    --rotate-2: rotate(15deg);
+    --rotate-3: rotate(15deg);
+    --rotate-4: rotate(15deg);
+  }
+
+  20% {
+    --translate-1: translate(-375px, 34px);
+    --translate-2: translate(-375px, 34px);
+    --translate-3: translate(-375px, 34px);
+    --translate-4: translate(-375px, 34px);
+    --rotate-1: rotate(10.5deg);
+    --rotate-2: rotate(10.5deg);
+    --rotate-3: rotate(10.5deg);
+    --rotate-4: rotate(10.5deg);
+  }
+
+  40% {
+    --translate-2: translate(-135px, 8px);
+    --translate-3: translate(-135px, 8px);
+    --translate-4: translate(-135px, 8px);
+    --rotate-2: rotate(5deg);
+    --rotate-3: rotate(5deg);
+    --rotate-4: rotate(5deg);
+  }
+
+  60% {
+    --translate-3: translate(135px, 8px);
+    --translate-4: translate(135px, 8px);
+    --rotate-3: rotate(-5deg);
+    --rotate-4: rotate(-5deg);
+  }
+
+  80% {
+    --translate-4: translate(375px, 34px);
+    --rotate-4: rotate(-10.5deg);
+  }
+
+  100% {
+  }
+}

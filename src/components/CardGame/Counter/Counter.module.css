@@ -1,0 +1,20 @@
+.counter {
+  @apply w-44 h-28 bg-black border-sun flex flex-col justify-between pt-2;
+  border-width: 1px;
+}
+
+.counter__number {
+  @apply text-white text-5xl;
+}
+
+.counter__text {
+  @apply text-white;
+}
+
+.counter-aces {
+  @apply h-6 mb-2;
+}
+
+.counter-aces__ace {
+  @apply text-white mx-1;
+}

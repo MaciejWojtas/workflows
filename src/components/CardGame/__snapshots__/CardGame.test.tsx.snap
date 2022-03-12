@@ -1,0 +1,600 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly  1`] = `
+<div
+  className="game"
+>
+  <div
+    className="game-counter"
+  >
+    <div
+      className="counter"
+    >
+      <span
+        className="counter__number font-secondary"
+      >
+        52
+      </span>
+      <span
+        className="counter__text font-secondary"
+      >
+        Cards Left
+      </span>
+      <div
+        className="counter-aces font-secondary"
+      >
+        <span
+          className="counter-aces__ace"
+        >
+          A
+        </span>
+        <span
+          className="counter-aces__ace"
+        >
+          A
+        </span>
+        <span
+          className="counter-aces__ace"
+        >
+          A
+        </span>
+        <span
+          className="counter-aces__ace"
+        >
+          A
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="game-cards"
+  >
+    <div
+      className="game-cards__container"
+    />
+  </div>
+  <div
+    className="game-deal"
+  >
+    <button
+      className="game-deal__button btn-primary"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      Deal
+    </button>
+  </div>
+  <div
+    className="game-reset"
+  >
+    <button
+      className="game-reset-btn game-reset__button btn-secondary"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders correctly after deal of 5 1`] = `
+<div
+  className="game"
+>
+  <div
+    className="game-counter"
+  >
+    <div
+      className="counter"
+    >
+      <span
+        className="counter__number font-secondary"
+      >
+        47
+      </span>
+      <span
+        className="counter__text font-secondary"
+      >
+        Cards Left
+      </span>
+      <div
+        className="counter-aces font-secondary"
+      >
+        <span
+          className="counter-aces__ace"
+        >
+          A
+        </span>
+        <span
+          className="counter-aces__ace"
+        >
+          A
+        </span>
+        <span
+          className="counter-aces__ace"
+        >
+          A
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="game-cards"
+  >
+    <div
+      className="game-cards__container"
+    >
+      <div
+        className="card game-cards__card game-cards__card-0"
+      >
+        <div
+          className="card-desc"
+        >
+          <span
+            className="card-desc__rank "
+          >
+            A
+          </span>
+          <svg
+            className="card-desc__img"
+          >
+            Clover.svg
+          </svg>
+        </div>
+        <div
+          className="card-suit"
+        >
+          <svg
+            className="card-suit__img"
+          >
+            Clover.svg
+          </svg>
+        </div>
+      </div>
+      <div
+        className="card game-cards__card game-cards__card-1"
+      >
+        <div
+          className="card-desc"
+        >
+          <span
+            className="card-desc__rank "
+          >
+            A
+          </span>
+          <svg
+            className="card-desc__img"
+          >
+            Spade.svg
+          </svg>
+        </div>
+        <div
+          className="card-suit"
+        >
+          <svg
+            className="card-suit__img"
+          >
+            Spade.svg
+          </svg>
+        </div>
+      </div>
+      <div
+        className="card game-cards__card game-cards__card-2"
+      >
+        <div
+          className="card-desc"
+        >
+          <span
+            className="card-desc__rank card-desc__rank--red"
+          >
+            A
+          </span>
+          <svg
+            className="card-desc__img"
+          >
+            Diamond.svg
+          </svg>
+        </div>
+        <div
+          className="card-suit"
+        >
+          <svg
+            className="card-suit__img"
+          >
+            Diamond.svg
+          </svg>
+        </div>
+      </div>
+      <div
+        className="card game-cards__card game-cards__card-3"
+      >
+        <div
+          className="card-desc"
+        >
+          <span
+            className="card-desc__rank card-desc__rank--red"
+          >
+            A
+          </span>
+          <svg
+            className="card-desc__img"
+          >
+            Heart.svg
+          </svg>
+        </div>
+        <div
+          className="card-suit"
+        >
+          <svg
+            className="card-suit__img"
+          >
+            Heart.svg
+          </svg>
+        </div>
+      </div>
+      <div
+        className="card game-cards__card game-cards__card-4"
+      >
+        <div
+          className="card-desc"
+        >
+          <span
+            className="card-desc__rank card-desc__rank--red"
+          >
+            10
+          </span>
+          <svg
+            className="card-desc__img"
+          >
+            Diamond.svg
+          </svg>
+        </div>
+        <div
+          className="card-suit"
+        >
+          <svg
+            className="card-suit__img"
+          >
+            Diamond.svg
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="game-deal"
+  >
+    <button
+      className="game-deal__button btn-primary"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      Deal
+    </button>
+  </div>
+  <div
+    className="game-reset"
+  >
+    <button
+      className="game-reset-btn game-reset__button btn-secondary"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders correctly after last deal of 2 and win 1`] = `
+<div
+  className="game"
+>
+  <canvas
+    height={768}
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "pointerEvents": "none",
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 2,
+      }
+    }
+    width={1024}
+  />
+  <div
+    className="game-win"
+  >
+    <svg>
+      winner.svg
+    </svg>
+  </div>
+  <div
+    className="game-counter"
+  >
+    <div
+      className="counter"
+    >
+      <span
+        className="counter__number font-secondary"
+      >
+        0
+      </span>
+      <span
+        className="counter__text font-secondary"
+      >
+        Cards Left
+      </span>
+      <div
+        className="counter-aces font-secondary"
+      />
+    </div>
+  </div>
+  <div
+    className="game-cards"
+  >
+    <div
+      className="game-cards__container"
+    >
+      <div
+        className="card game-cards__card "
+      >
+        <div
+          className="card-desc"
+        >
+          <span
+            className="card-desc__rank "
+          >
+            A
+          </span>
+          <svg
+            className="card-desc__img"
+          >
+            Clover.svg
+          </svg>
+        </div>
+        <div
+          className="card-suit"
+        >
+          <svg
+            className="card-suit__img"
+          >
+            Clover.svg
+          </svg>
+        </div>
+      </div>
+      <div
+        className="card game-cards__card "
+      >
+        <div
+          className="card-desc"
+        >
+          <span
+            className="card-desc__rank card-desc__rank--red"
+          >
+            10
+          </span>
+          <svg
+            className="card-desc__img"
+          >
+            Diamond.svg
+          </svg>
+        </div>
+        <div
+          className="card-suit"
+        >
+          <svg
+            className="card-suit__img"
+          >
+            Diamond.svg
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="game-deal"
+  >
+    <button
+      className="game-reset-btn btn-secondary"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      Play Again
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders correctly when lose 1`] = `
+<div
+  className="game"
+>
+  <div
+    className="game-counter"
+  >
+    <div
+      className="counter"
+    >
+      <span
+        className="counter__number font-secondary"
+      >
+        47
+      </span>
+      <span
+        className="counter__text font-secondary"
+      >
+        Cards Left
+      </span>
+      <div
+        className="counter-aces font-secondary"
+      />
+    </div>
+  </div>
+  <div
+    className="game-cards"
+  >
+    <div
+      className="game-cards__container"
+    >
+      <div
+        className="card game-cards__card game-cards__card-0"
+      >
+        <div
+          className="card-desc"
+        >
+          <span
+            className="card-desc__rank "
+          >
+            A
+          </span>
+          <svg
+            className="card-desc__img"
+          >
+            Clover.svg
+          </svg>
+        </div>
+        <div
+          className="card-suit"
+        >
+          <svg
+            className="card-suit__img"
+          >
+            Clover.svg
+          </svg>
+        </div>
+      </div>
+      <div
+        className="card game-cards__card game-cards__card-1"
+      >
+        <div
+          className="card-desc"
+        >
+          <span
+            className="card-desc__rank "
+          >
+            A
+          </span>
+          <svg
+            className="card-desc__img"
+          >
+            Spade.svg
+          </svg>
+        </div>
+        <div
+          className="card-suit"
+        >
+          <svg
+            className="card-suit__img"
+          >
+            Spade.svg
+          </svg>
+        </div>
+      </div>
+      <div
+        className="card game-cards__card game-cards__card-2"
+      >
+        <div
+          className="card-desc"
+        >
+          <span
+            className="card-desc__rank card-desc__rank--red"
+          >
+            A
+          </span>
+          <svg
+            className="card-desc__img"
+          >
+            Diamond.svg
+          </svg>
+        </div>
+        <div
+          className="card-suit"
+        >
+          <svg
+            className="card-suit__img"
+          >
+            Diamond.svg
+          </svg>
+        </div>
+      </div>
+      <div
+        className="card game-cards__card game-cards__card-3"
+      >
+        <div
+          className="card-desc"
+        >
+          <span
+            className="card-desc__rank card-desc__rank--red"
+          >
+            A
+          </span>
+          <svg
+            className="card-desc__img"
+          >
+            Heart.svg
+          </svg>
+        </div>
+        <div
+          className="card-suit"
+        >
+          <svg
+            className="card-suit__img"
+          >
+            Heart.svg
+          </svg>
+        </div>
+      </div>
+      <div
+        className="card game-cards__card game-cards__card-4"
+      >
+        <div
+          className="card-desc"
+        >
+          <span
+            className="card-desc__rank card-desc__rank--red"
+          >
+            10
+          </span>
+          <svg
+            className="card-desc__img"
+          >
+            Diamond.svg
+          </svg>
+        </div>
+        <div
+          className="card-suit"
+        >
+          <svg
+            className="card-suit__img"
+          >
+            Diamond.svg
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="game-deal"
+  >
+    <span
+      className="game-lose font-secondary"
+    >
+      You lose.
+      <br />
+       Better luck next time!
+    </span>
+    <button
+      className="game-reset-btn btn-secondary"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      Play Again
+    </button>
+  </div>
+</div>
+`;

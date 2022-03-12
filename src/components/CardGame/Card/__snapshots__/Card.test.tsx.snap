@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with Class Name 1`] = `
+<div
+  className="card class-name"
+>
+  <div
+    className="card-desc"
+  >
+    <span
+      className="card-desc__rank card-desc__rank--red"
+    >
+      A
+    </span>
+    <svg
+      className="card-desc__img"
+    >
+      Diamond.svg
+    </svg>
+  </div>
+  <div
+    className="card-suit"
+  >
+    <svg
+      className="card-suit__img"
+    >
+      Diamond.svg
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`renders correctly with Clover card 1`] = `
+<div
+  className="card "
+>
+  <div
+    className="card-desc"
+  >
+    <span
+      className="card-desc__rank "
+    >
+      A
+    </span>
+    <svg
+      className="card-desc__img"
+    >
+      Clover.svg
+    </svg>
+  </div>
+  <div
+    className="card-suit"
+  >
+    <svg
+      className="card-suit__img"
+    >
+      Clover.svg
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`renders correctly with Diamond card 1`] = `
+<div
+  className="card "
+>
+  <div
+    className="card-desc"
+  >
+    <span
+      className="card-desc__rank card-desc__rank--red"
+    >
+      A
+    </span>
+    <svg
+      className="card-desc__img"
+    >
+      Diamond.svg
+    </svg>
+  </div>
+  <div
+    className="card-suit"
+  >
+    <svg
+      className="card-suit__img"
+    >
+      Diamond.svg
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`renders correctly with Heart card 1`] = `
+<div
+  className="card "
+>
+  <div
+    className="card-desc"
+  >
+    <span
+      className="card-desc__rank card-desc__rank--red"
+    >
+      A
+    </span>
+    <svg
+      className="card-desc__img"
+    >
+      Heart.svg
+    </svg>
+  </div>
+  <div
+    className="card-suit"
+  >
+    <svg
+      className="card-suit__img"
+    >
+      Heart.svg
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`renders correctly with Spade card 1`] = `
+<div
+  className="card "
+>
+  <div
+    className="card-desc"
+  >
+    <span
+      className="card-desc__rank "
+    >
+      A
+    </span>
+    <svg
+      className="card-desc__img"
+    >
+      Spade.svg
+    </svg>
+  </div>
+  <div
+    className="card-suit"
+  >
+    <svg
+      className="card-suit__img"
+    >
+      Spade.svg
+    </svg>
+  </div>
+</div>
+`;
