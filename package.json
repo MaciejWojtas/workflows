@@ -5,6 +5,7 @@
   "proxy": "http://localhost:5000",
   "license": "UNLICENSED",
   "scripts": {
+    "postinstall": "husky install && patch-package",
     "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
     "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
     "analyze": "source-map-explorer 'build/static/js/*.js' --html > report.html",
