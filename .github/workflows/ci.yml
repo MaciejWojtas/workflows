@@ -31,6 +31,12 @@ jobs:
       - name: Build Project
         if: github.event_name == 'push'
         run: yarn build
+      - name: Upload Build Folder
+        if: github.event_name == 'push'
+        uses: actions/upload-artifacts@v1
+        with:
+          name: build
+          path: build
       - name: Deploy to Staging
         if: github.event_name == 'push'
         run: npx surge --project ./build --domain https://boorish-comparison.surge.sh
